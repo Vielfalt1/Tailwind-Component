@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Work+Sans&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Manrope', sans-serif;
+}
+
+body{
+	background-color: #f8f8f8f8;
+	padding-top: 4rem;
+}
+
+.project-management-board{
+	width: 80%;
+	height: auto;
+	background-color: #fff;
+	border: 2px solid #f3f3f3;
+	margin: 0 auto;
+	padding: 2rem;
+	border-radius: 0.5rem;
+}
+
+.project-list-container{
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 align-items: center;
+	 padding: 2rem 0;
+	 border-bottom: 2px solid #f7f7f7;
+
+}
+
+.left-list-container{
+	width: fit-content;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	row-gap:0.5rem;
+	justify-content: center;
+
+}
+
+.list-title-section{
+	width: fit-content;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	column-gap: 0.5rem;
+	align-items: center;
+}
+
+.title-container{
+	width: fit-content;
+	height: auto;
+}
+
+.title-container h2{
+	font-size: 1rem;
+	color: #333;
+	font-weight: bold;
+	letter-spacing: 0.025px;
+}
+
+.title-badge-container{
+	width: fit-content;
+	height: auto;
+	background-color: #eefff6;
+	padding: 0.15rem 0.25rem;
+	border: 1px solid #48b389;
+	border-radius: 0.5rem;
+}
+
+.title-badge-container p{
+	font-size: 0.8rem;
+	color: #2c7f5c; 
+}
+
+.bottom-left-section{
+	width: fit-content;
+	height: auto;
+
+}
+
+.bottom-card-text{
+	width: fit-content;
+	height: auto ;
+}
+
+.bottom-card-text p{
+	font-size: 0.8rem;
+	color: #9b9b9b;
+}
+
+.right-list-container{
+	width: fit-content;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	column-gap: 1rem;
+	align-items: center;
+
+}
+
+.right-button-container{
+	width: fit-content;
+	height: auto;
+}
+
+.right-button-container button{
+	background-color: #fff;
+	border: 2px solid #e3e3e3;
+	padding: 0.5rem;
+	border-radius: 0.5rem ;
+	font-weight: bold;
+	color: #6d6c6c;
+
+}
+
+.right-icon-container{
+	width: fit-content;
+	height: auto;
+
+}
+
+.right-icon-container img{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.new-badge-class{
+	background-color: #f3f3f3;
+	border: 1px solid lightgrey;
+}
+
+.new-badge-class p{
+	color: #333;
+}
+
+.renewed-badge-class{
+	background-color: rgb(255, 246, 236);
+	border: 1px solid rgb(226, 215, 171);
+}
+
+.renewed-badge-class p{
+	color: rgb(146, 97, 7);
+}
+
+.last-list{
+	border: none;
+}
+
+
+
+@media (max-width: 768px){
+
+	
+	.project-management-board{
+		width: 94%;
+		height: auto;
+		background-color: #fff;
+		border: 2px solid #f3f3f3;
+		margin: 0 auto;
+		padding: 2rem;
+		border-radius: 0.5rem;
+	}
+
+	.right-button-container{
+		display: none;
+	}
+
+	.right-button-container button{
+		display: none;
+	}
+
+}
